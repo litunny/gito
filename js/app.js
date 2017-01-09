@@ -1,3 +1,10 @@
 
 //Added this, by tomi
-alert('Hello world')
+
+try{
+    
+    alert('Hello world');
+
+} catch(e) {
+    throw new Error();
+}
